@@ -1,0 +1,204 @@
+/*
+
+
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600
+
+
+
+ */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: hsl(217, 54%, 11%);
+
+    display: flex;
+
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+
+
+.etherium {
+    font-size: 1.2em;
+    color: hsl(178, 100%, 50%);
+}
+
+.daysleft {
+    position: relative;
+    left: 105px;
+    color: hsl(215, 51%, 70%);
+}
+
+#container {
+    background: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    position: static;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#textos {
+    padding: 25px;
+
+}
+
+.container-img {
+
+    width: 85%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    top: 25px;
+    justify-self: center;
+
+}
+
+.img-equilibrium {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 27px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+
+hr {
+    border: -1px solid white;
+}
+
+
+.avatar {
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 100%;
+
+}
+
+.nome-criador {
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 7px;
+}
+
+.criador {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -5px;
+    top: -34px;
+}
+
+
+.attribution {
+    font-size: 18px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+
+    body {
+        position: relative;
+        top: 20px;
+    }
+
+    #container {
+        position: relative;
+        width: 80%;
+        height: 490px;
+
+    }
+
+    .img-equilibrium {
+        max-width: 95%;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .criador {
+        position: relative;
+        left: 15px;
+    }
+
+    .etherium {
+        font-size: 0.9em;
+    }
+
+    .daysleft {
+        position: relative;
+        left: 40px;
+        font-size: 0.9;
+    }
+
+
+}
